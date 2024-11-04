@@ -1,0 +1,13 @@
+[package]
+name = "videre"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# local
+vid_src = { path = "../vid_src" }
+# crates.io
+image = "0.25.4"
+
+# opencv = "0.93.0"
+# ndarray = "0.16.1"

@@ -1,3 +1,5 @@
+use std::io::SeekFrom;
+
 pub enum ImgFmt {
     GRAYSCALE,
     RGB,
@@ -23,6 +25,10 @@ impl<T> Image<T> {
 
     pub fn get_format(&self) -> &ImgFmt {
         &self.fmt
+    }
+
+    pub fn get_data(&self) -> &Vec<T> {
+        &self.data
     }
 }
 
