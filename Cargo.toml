@@ -1,5 +1,6 @@
 [workspace]
 members = [
     "videre",
-    "vid_src", "videre_gui",
+    "vid_src",
+    "videre_gui",
 ]

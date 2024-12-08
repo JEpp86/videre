@@ -6,3 +6,6 @@ edition = "2021"
 [dependencies]
 
 eframe = "0.29.1"
+egui_extras = { version = "*", features = ["all_loaders"] }
+rfd = "0.15.0"
+image = { version = "0.25", features = ["jpeg", "png"] }
